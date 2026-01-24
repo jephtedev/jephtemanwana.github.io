@@ -1,144 +1,122 @@
-/* ===== STYLE GLOBAL ===== */
+/* ===== RESET BASIQUE ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ===== BODY ===== */
 body {
-    margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f4f6f8;
-    color: #333;
-    scroll-behavior: smooth; /* défilement fluide */
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
 }
 
-/* ===== BANNIÈRE / HEADER ===== */
-header {
-    background: url('banniere.jpg') center/cover no-repeat; /* ajoute ton image */
-    color: white;
-    padding: 80px 20px;
-    text-align: center;
-    position: relative;
-    overflow: hidden;
+/* ===== HEADER / BANNIÈRE ===== */
+.hero {
+  background: linear-gradient(135deg, #4a90e2, #50e3c2);
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
 }
 
-header::after {
-    content: "";
-    position: absolute;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
-    background: rgba(0,0,0,0.5);
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
 }
 
-/* Animation texte header */
-header h1, header p {
-    position: relative;
-    opacity: 0;
-    transform: translateY(30px);
-    animation: slideIn 1s forwards;
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
 }
 
-header h1 { 
-    font-size: 40px;
-    animation-delay: 0.3s;
+.hero .btn {
+  display: inline-block;
+  padding: 12px 25px;
+  font-size: 1rem;
+  color: #4a90e2;
+  background-color: white;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: 0.3s;
 }
 
-header p { 
-    margin-top: 10px;
-    font-size: 18px;
-    animation-delay: 0.6s;
+.hero .btn:hover {
+  background-color: #e6e6e6;
 }
 
-@keyframes slideIn {
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+/* ===== SECTIONS ===== */
+section {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: auto;
 }
 
-/* ===== MENU DE NAVIGATION ===== */
-nav {
-    display: flex;
-    justify-content: center;
-    background-color: #0d6efd;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+section h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #4a90e2;
 }
 
-nav a {
-    color: white;
-    text-decoration: none;
-    padding: 14px 25px;
-    font-weight: bold;
-    position: relative;
-    transition: all 0.3s;
+section p {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 20px;
 }
 
-nav a::after {
-    content: "";
-    position: absolute;
-    width: 0%;
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: #fff;
-    transition: 0.3s;
+/* ===== COMPÉTENCES ===== */
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
 }
 
-nav a:hover::after {
-    width: 100%;
+.skills-grid span {
+  background-color: #4a90e2;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: bold;
 }
 
-nav a:hover {
-    background-color: #0a58ca;
+/* ===== PROJETS ===== */
+.project-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: 0.3s;
 }
 
-/* ===== CONTENU ===== */
-main {
-    padding: 40px 20px;
-    max-width: 1000px;
-    margin: auto;
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
 }
 
-/* Animation des sections principales */
-main h2, main p {
-    opacity: 0;
-    transform: translateY(20px);
-    animation: fadeIn 1s forwards;
+/* ===== CONTACT ===== */
+#contact a {
+  color: #4a90e2;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-main h2 { animation-delay: 0.2s; }
-main p { animation-delay: 0.5s; }
-
-@keyframes fadeIn {
-    to { opacity: 1; transform: translateY(0); }
+#contact a:hover {
+  text-decoration: underline;
 }
 
-/* ===== PIED DE PAGE / FOOTER ===== */
+/* ===== FOOTER ===== */
 footer {
-    background-color: #1e1e1e;
-    color: #ccc;
-    text-align: center;
-    padding: 30px 20px;
-    font-size: 14px;
-}
-
-footer span {
-    color: #0d6efd;
-    font-weight: bold;
-}
-
-footer .social-icons a {
-    color: #ccc;
-    margin: 0 10px;
-    text-decoration: none;
-    font-size: 18px;
-    transition: all 0.3s;
-}
-
-footer .social-icons a:hover {
-    color: #0d6efd;
-    transform: scale(1.2);
-}
-
-/* ===== RESPONSIVE ===== */
-@media screen and (max-width: 768px) {
-    header h1 { font-size: 30px; }
-    header p { font-size: 16px; }
-    nav { flex-direction: column; }
-    nav a { padding: 10px; }
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+  font-size: 0.9rem;
 }
