@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MANWANA Jephte | Développeur Web & Formateur</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>MANWANA Jephte</h1>
+  <p>Développeur Web & Formateur – J’aide les débutants à maîtriser le numérique simplement</p>
+  <a href="#contact" class="btn">Me contacter</a>
+  <a href="CV_Jephte_Manwana.pdf" class="btn">Télécharger mon CV</a>
+</header>
+
+<nav>
+  <a href="#">Accueil</a>
+  <a href="#apropos">À propos</a>
+  <a href="#services">Services</a>
+  <a href="#contact">Contact</a>
+  <a href="#chatbot">Assistance IA</a>
+</nav>
+
+<main>
+  <div class="card" id="apropos">
+    <h2>À propos</h2>
+    <p>Je m'appelle <strong>MANWANA Jephte</strong>, développeur web et passionné du numérique. Mon objectif est de rendre le web <strong>accessible, simple et compréhensible</strong> pour tous.</p>
+  </div>
+
+  <div class="card" id="profil">
+    <h2>Profil professionnel</h2>
+    <p>Développeur web débutant & formateur informatique, pédagogue, rigoureux et orienté solutions. J’accompagne les débutants dans l’apprentissage du numérique (HTML, CSS, Word, Excel).</p>
+  </div>
+
+  <div class="card" id="services">
+    <h2>Services & Compétences</h2>
+    <ul>
+      <li>Création de sites web simples et professionnels (HTML/CSS)</li>
+      <li>Initiation Word & Excel pour débutants</li>
+      <li>Structuration et publication de sites sur GitHub Pages</li>
+      <li>Accompagnement personnalisé dans l’apprentissage du numérique</li>
+    </ul>
+  </div>
+
+  <div class="card" id="contact">
+    <h2>Contact</h2>
+    <p>Email : <strong>jephtemanwana4@gmail.com</strong><br>
+    WhatsApp : <strong>+243 981 870 665</strong></p>
+  </div>
+
+  <div class="card" id="chatbot">
+    <h2>Assistance IA</h2>
+    <div id="chatbox" style="border:1px solid #ccc; padding:10px; height:200px; overflow-y:scroll;"></div>
+    <input type="text" id="userInput" placeholder="Écris ici..." style="width:80%; padding:5px;">
+    <button onclick="sendMessage()">Envoyer</button>
+  </div>
+</main>
+
+<footer>
+  <p>© 2026 – MANWANA Jephte | Développeur Web & Formateur Informatique</p>
+  <p>Email : jephtemanwana4@gmail.com | WhatsApp : +243 981 870 665</p>
+</footer>
+
+<script>
+function sendMessage() {
+    var input = document.getElementById("userInput").value;
+    if(input.trim() === "") return;
+    var chat = document.getElementById("chatbox");
+    var userMsg = "<p><strong>Vous :</strong> " + input + "</p>";
+    var botMsg = "<p><strong>IA :</strong> Merci pour votre question ! Je peux vous aider sur HTML, CSS, Word, Excel...</p>";
+    chat.innerHTML += userMsg + botMsg;
+    chat.scrollTop = chat.scrollHeight;
+    document.getElementById("userInput").value = "";
+}
+</script>
+
+</body>
+</html>
