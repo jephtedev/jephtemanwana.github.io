@@ -1,42 +1,22 @@
-# jephtemanwana.github.io
-Site personnel de jephté MANWANA 
-# 🌐 Site personnel – MANWANA Jephte
+# 🌐 Portfolio Web – **JEPHTÉ MANWANA**
 
-Bienvenue sur mon site web personnel.
-
-Ce site a été créé pour valoriser mon profil professionnel, présenter mes compétences
-et partager mes connaissances en informatique et en création de sites web.
+![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-En%20ligne-success?style=for-the-badge)
+![HTML5](https://img.shields.io/badge/HTML5-Structure-orange?style=for-the-badge)
+![CSS3](https://img.shields.io/badge/CSS3-Design-blue?style=for-the-badge)
+![Statut](https://img.shields.io/badge/Statut-Projet%20actif-brightgreen?style=for-the-badge)
 
 ---
 
-## 👤 À propos de moi
-Je m'appelle **MANWANA Jephte**.  
-Je suis passionné par le numérique, la formation et le développement web.
-Mon objectif est d’aider les débutants à comprendre et utiliser le web de manière simple
-et pratique.
+## 👨‍💻 Profil Professionnel
+
+**JEPHTÉ MANWANA** – Développeur Web Débutant & Formateur Informatique  
+
+💡 Passionné par le numérique et l’accompagnement des débutants.  
+Approche : **pédagogique, pratique et progressive** pour rendre le web et l’informatique accessibles à tous.  
 
 ---
 
-## 🎯 Objectifs du site
-- Présenter mon profil et mes compétences
-- Aider les débutants en informatique
-- Partager des contenus éducatifs
-- Offrir un accompagnement clair et accessible
+## 🎯 Objectifs du Portfolio
 
----
+- Valoriser mon **profi**
 
-## 🛠️ Technologies utilisées
-- HTML
-- CSS
-- JavaScript
-- GitHub Pages
-
----
-
-## 🚀 Accès au site
-👉 https://jephtemanwana.github.io
-
----
-
-## 📬 Contact
-Pour toute question ou collaboration, merci de me contacter via la page **Contact** du site.
