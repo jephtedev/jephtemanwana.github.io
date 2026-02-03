@@ -1,0 +1,9 @@
+<!-- Chatbot IA -->
+<div id="chatbot">
+  <button id="openChat">💬 Assistance IA</button>
+  <div id="chatbox">
+    <header>Assistant Numérique</header>
+    <div class="messages" id="messages"></div>
+    <input type="text" id="userInput" placeholder="Écris ici..." />
+  </div>
+</div>
