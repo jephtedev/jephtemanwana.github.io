@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CV – JEPHTÉ MANWANA</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background: #f4f6f8;
+        color: #333;
+        margin: 0;
+        padding: 0 20px;
+    }
+    .container {
+        max-width: 800px;
+        margin: auto;
+        background: white;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    h1, h2 {
+        color: #0d6efd;
+        margin-bottom: 10px;
+    }
+    h1 {
+        text-align: center;
+        font-size: 28px;
+    }
+    h2 {
+        font-size: 20px;
+        border-bottom: 2px solid #0d6efd;
+        padding-bottom: 5px;
+        margin-top: 30px;
+    }
+    p, li {
+        line-height: 1.6;
+    }
+    ul {
+        list-style: none;
+        padding-left: 0;
+    }
+    ul li::before {
+        content: "✔ ";
+        color: #0d6efd;
+    }
+    .section {
+        margin-bottom: 20px;
+    }
+    .box {
+        background: #f0f4f8;
+        padding: 15px;
+        border-radius: 8px;
+        margin-top: 10px;
+    }
+    .contact {
+        background: #fff4e6;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h1>JEPHTÉ MANWANA</h1>
+
+    <div class="section">
+        <h2>Informations Personnelles</h2>
+        <div class="box contact">
+            <p><strong>Email :</strong> jephtemanwana4@gmail.com</p>
+            <p><strong>Téléphone / WhatsApp :</strong> 0821532001 / 0981870665</p>
+            <p><strong>Adresse :</strong> Avenue Ngathie N°46, Quartier Résidentiel, Limeté, Kinshasa</p>
+            <p><strong>Date de naissance :</strong> 26/03/2004</p>
+            <p><strong>Nationalité :</strong> Congolaise</p>
+            <p><strong>Situation familiale :</strong> Célibataire</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Objectif Professionnel</h2>
+        <div class="box">
+            <p>Débuter dans la relation client et la formation numérique, avec une forte motivation à apprendre et à évoluer.</p>
+            <p>Formation en électricité et informatique (Word, Excel, Internet, IT Essentials).</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Compétences</h2>
+        <div class="box">
+            <ul>
+                <li>HTML5 / CSS3 – Création de sites web</li>
+                <li>Structuration et mise en page professionnelle</li>
+                <li>Initiation à l’informatique & bureautique</li>
