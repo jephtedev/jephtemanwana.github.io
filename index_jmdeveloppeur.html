@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JMDEVELOPEUR - Site Personnel</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" href="images/jmdeveloppeur-favicon.ico" type="image/x-icon">
+
+    <!-- Font Awesome pour icônes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- CSS principal -->
+    <link rel="stylesheet" href="css/jmdeveloppeur-style.css">
+
+    <style>
+        /* ===== Style minimal pour la démo ===== */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #0a3d62;
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 26px;
+            font-weight: bold;
+        }
+        .logo i {
+            margin-right: 8px;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            background: #fff;
+            padding: 40px 20px;
+            margin: 20px auto;
+            max-width: 900px;
+            border-radius: 8px;
+        }
+        h2 {
+            color: #0a3d62;
+            margin-bottom: 20px;
+        }
+        .profile-photo {
+            width: 150px;
+            border-radius: 50%;
+            margin-right: 20px;
+            float: left;
+        }
+        .about-content {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .ia-btn {
+            background: #0d6efd;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+        footer {
+            background: #0a3d62;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+        /* Responsive mobile */
+        @media (max-width: 768px) {
+            .about-content {
+                flex-direction: column;
+                align-items: center;
+            }
+            .profile-photo {
+                float: none;
+                margin-bottom: 20px;
+            }
+            nav ul {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- ================= HEADER ================= -->
+<header>
+    <div class="logo">
+        <i class="fas fa-code"></i> JMDEVELOPEUR
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#apropos">À propos</a></li>
+            <li><a href="#competences">Compétences</a></li>
+            <li><a href="#projets">Projets</a></li>
+            <li><a href="#ia">IA</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- ================= ACCUEIL ================= -->
+<section id="accueil">
+    <h1>Bienvenue sur JMDEVELOPEUR</h1>
+    <p>Site personnel de MANWANA Jephté – Développement web & compétences numériques</p>
+</section>
+
+<!-- ================= À PROPOS ================= -->
+<section id="apropos">
+    <h2><i class="fas fa-user"></i> À propos de moi</h2>
+    <div class="about-content">
+        <img src="images/jmdeveloppeur-photo.jpg" alt="Photo de MANWANA Jephté" class="profile-photo">
+        <p>
+            Je m'appelle <strong>MANWANA Jephté</strong>, développeur et passionné par
+            l’informatique, le web et les technologies numériques.
+            À travers <strong>JMDEVELOPEUR</strong>, je présente mon parcours professionnel,
+            mes compétences techniques et mes projets personnels.
+        </p>
+    </div>
+</section>
+
+<!-- ================= COMPÉTENCES ================= -->
+<section id="competences">
+    <h2><i class="fas fa-tools"></i> Mes compétences</h2>
+    <ul>
+        <li><i class="fas fa-code"></i> HTML & CSS</li>
+        <li><i class="fas fa-desktop"></i> Informatique générale</li>
+        <li><i class="fas fa-file-word"></i> Word & Excel</li>
+        <li><i class="fas fa-network-wired"></i> IT Essentials</li>
+        <li><i class="fas fa-bolt"></i> Électricité générale</li>
+    </ul>
+</section>
+
+<!-- ================= PROJETS ================= -->
+<section id="projets">
+    <h2><i class="fas fa-folder-open"></i> Mes projets</h2>
+    <p>✔ Site personnel JMDEVELOPEUR (GitHub Pages)</p>
+    <p>✔ Projets HTML / CSS (en cours)</p>
+</section>
+
+<!-- ================= IA ================= -->
+<section id="ia">
+    <h2><i class="fas fa-robot"></i> Intelligence artificielle</h2>
+    <p>
+        JMDEVELOPEUR intégrera progressivement des solutions basées sur
+        l’intelligence artificielle afin d’améliorer l’assistance,
+        l’orientation et l’apprentissage des visiteurs.
+    </p>
+    <button class="ia-btn"><i class="fas fa-robot"></i> Assistant IA (bientôt)</button>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section id="contact">
+    <h2><i class="fas fa-envelope"></i> Contact</h2>
+    <p>📧 Email : jephtemanwana4@gmail.com</p>
+    <p>📱 WhatsApp : +243 981 870 665</p>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+    <p>© 2026 – JMDEVELOPEUR | MANWANA Jephté</p>
+</footer>
+
+</body>
+  </html>
