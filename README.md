@@ -2,7 +2,7 @@
 
 ![HTML5](https://img.shields.io/badge/HTML5-%23E34F26?style=flat&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-%231572B6?style=flat&logo=css3&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-green)
+![Licence MIT](https://img.shields.io/badge/License-MIT-green)
 
 ![Logo JMDEVELOPEUR](images/jmdeveloppeur-logo.png)
 
@@ -10,21 +10,26 @@
 
 ## 🌟 Présentation
 
-**JMDEVELOPEUR** est le site personnel et professionnel de **MANWANA Jephté**, un développeur passionné par le web, l’informatique et les technologies numériques.  
+**JMDEVELOPEUR** est le site personnel et professionnel de **MANWANA Jephté**, un développeur passionné par le web et les technologies numériques.  
 
-Ce site a pour objectif de **mettre en valeur mon parcours professionnel**, mes compétences, mes projets, ainsi que l’intégration future d’un **assistant intelligent basé sur l’IA**.  
+Ce site présente :
 
-Le design est **moderne, clair, responsive** et pensé pour offrir une expérience professionnelle aux visiteurs, employeurs ou clients.
+- Mon parcours professionnel  
+- Mes compétences techniques  
+- Mes projets personnels et professionnels  
+- Mon futur assistant IA pour guider les visiteurs  
+
+Le site est **moderne, clair, responsive et élégant**, pensé pour offrir une expérience professionnelle aux visiteurs, employeurs ou clients.
 
 ---
 
-## 🎯 Objectifs du site
+## 🎯 Objectifs
 
 1. Partager mon parcours et mes compétences professionnelles  
 2. Présenter mes projets web et numériques réalisés  
 3. Illustrer mon savoir-faire avec un portfolio interactif  
 4. Préparer l’intégration d’un assistant IA pour guider les visiteurs  
-5. Fournir une expérience utilisateur fluide et professionnelle  
+5. Offrir une expérience utilisateur fluide et professionnelle  
 
 ---
 
@@ -33,12 +38,12 @@ Le design est **moderne, clair, responsive** et pensé pour offrir une expérien
 - **Accueil** : introduction et bienvenue  
 - **À propos** : parcours, compétences et objectifs détaillés  
 - **Compétences** : technologies et outils maîtrisés, présentés avec icônes  
-- **Projets** : aperçu de projets web et travaux personnels  
+- **Projets** : aperçu des projets web et travaux personnels  
 - **Assistant IA** : fonctionnalité future pour améliorer l’interaction  
 - **Contact** : email et WhatsApp pour échanges professionnels  
-- **Responsive** : site adapté aux mobiles, tablettes et ordinateurs  
+- **Design responsive** : site compatible mobile, tablette et desktop  
 - **Navigation intuitive** : menu clair et sections distinctes  
-- **SEO-friendly** : meta description et structure HTML propre  
+- **SEO-friendly** : meta description et structure HTML valide  
 
 ---
 
